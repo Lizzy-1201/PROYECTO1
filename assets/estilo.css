@@ -311,30 +311,89 @@ header{
  }
 
  .formulario{
-    margin-top: 10px;
-    width: 90%;
-    background-image: linear-gradient(45deg, #ee9ca765 0%, #ffdde1f6 100%);;
- }
-
+     margin-top: 10px;
+     width: 90%;
+     background-image: linear-gradient(to top, rgba(250, 208, 196, 0.096) 0%, rgba(255, 209, 255, 0.171) 100%), url(../imagenes/contacto.jpg);
+     height: 100%; 
+     font-family: 'Noto Sans', sans-serif;
+     background-color: pink; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center; 
+}
+ 
+.formulario h2{
+    padding: 10px;
+    color: rgb(250, 111, 134); 
+    text-align: center;
+    font-size: 40px;
+}
  .formulario-contacto{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    flex-direction: column;
-    border-radius: 20px;
-    margin: 50px auto;
-    padding: 30px;
+     background-image: linear-gradient(45deg, #ee9ca765 0%, #ffdde1f6 100%);;
+     width: 460px; 
+     height: auto;
+     margin: 80px auto;
+     border-radius: 10px;  
+     padding-top: 30px;
+     padding-bottom: 20px;  
+     background-color: rgb(252, 238, 240); 
+     padding-left: 30px; 
  }
 
  .formulario-contacto label{
-
-    text-align:center;
-    color: white;
-    margin: 30px 0px 10px 0px;
-    font-size:22px;
-    background: linear-gradient(45deg, #ee9ca7 0%, #f5cdd2 100%); ;
+     display: block; 
+    float: center; 
    
  }
+
+ .formulario-contacto textarea{
+     background-color: #fbfbfb; 
+     width: 405px; 
+     height: 150px; 
+     border-radius: 5px;  
+     border-style: solid; 
+     border-width: 1px; 
+     border-color: pink; 
+     margin-top: 10px;  
+     padding-left: 10px;
+     margin-bottom: 20px; 
+     padding-top: 15px; 
+   
+ }
+
+ .formulario-contacto input{
+     background-color: #fbfbfb; 
+     width: 408px; 
+     height: 40px; 
+     border-radius: 5px;  
+     border-style: solid; 
+     border-width: 1px; 
+     border-color: pink; 
+     margin-top: 10px;  
+     padding-left: 10px;
+     margin-bottom: 20px; 
+   
+ }
+
+ .formulario-contacto button{
+     height: 45px; 
+     padding-left: 5px;
+     padding-right: 5px;   
+     margin-bottom: 20px; 
+     margin-top: 10px;   
+     text-transform: uppercase;
+     background-color: rgb(252, 145, 161); 
+     border-color: pink; 
+     border-style: solid; 
+     border-radius: 10px;  
+     width: 420px;   
+     cursor: pointer;
+  }
+
+  .formulario p{
+      color: #fff; 
+  }
 
  /*Footer*/
 
